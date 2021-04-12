@@ -15,6 +15,7 @@ public class CarAgent : BaseAgent
 
     private CarSpots carSpots;
 
+
     public override void Initialize()
     {
         originalPosition = transform.localPosition;
@@ -58,9 +59,12 @@ public class CarAgent : BaseAgent
         sensor.AddObservation(transform.rotation);
 
         sensor.AddObservation(carSpots.CarGoal.transform.position);
-        sensor.AddObservation(carSpots.CarGoal.transform.rotation);
+        //sensor.AddObservation(carSpots.CarGoal.transform.rotation);
 
-        sensor.AddObservation(carControllerRigidBody.velocity);
+        //sensor.AddObservation(carControllerRigidBody.velocity);
+
+        sensor.AddObservation(carControllerRigidBody.velocity.x);
+        sensor.AddObservation(carControllerRigidBody.velocity.z);
     }
     
     public override void OnActionReceived(float[] vectorAction)

@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/ParkingLot.unity
+    guid: d6b091a348c176243a6622184d71ef5a
+  - enabled: 1
+    path: Assets/Scenes/ParkingLotAdvanced.unity
+    guid: accda292b92cdc742af33d96e650e118
   m_configObjects: {}
