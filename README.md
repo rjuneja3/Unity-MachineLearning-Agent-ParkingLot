@@ -35,4 +35,4 @@ Example Scenes: (New Demos In Progress)
 
 **Config** used -> /Assets/Config/PlayerAvoidance.yaml
 
-<img src="https://github.com/dilmerv/UnityMLEssentials/blob/master/docs/images/BasicAvoidance.gif" width="300">
+<img src="https://github.com/dilmerv/UnityMLEssentials/blob/master/docs/images/BasicAvoidance.gif" width="300">"# COMP-256---Parking" 
