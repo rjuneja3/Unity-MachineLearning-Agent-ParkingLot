@@ -379,7 +379,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.2, g: 0.12941177, b: 0.15294118, a: 0}
+  m_BackGroundColor: {r: 0.23529412, g: 0.45882353, b: 0.5294118, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -420,7 +420,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.2811608, y: 0.000012267064, z: -0.00004187006, w: 0.9596607}
-  m_LocalPosition: {x: -7.97, y: 35.96, z: -47.21}
+  m_LocalPosition: {x: -6.7, y: 35.5, z: -47.6}
   m_LocalScale: {x: 1, y: 1, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 0}
@@ -438,7 +438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 983c5565abf2a9a4a9134d3dd4303488, type: 2}
+  sharedProfile: {fileID: 0}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -524,6 +524,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327753232405652506, guid: d80c6db3dd6ed184dbe2ac006c4a5b8f,
+        type: 3}
+      propertyPath: m_Model
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4327753232503663940, guid: d80c6db3dd6ed184dbe2ac006c4a5b8f,
         type: 3}
