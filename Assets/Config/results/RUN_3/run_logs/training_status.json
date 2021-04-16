@@ -1,0 +1,23 @@
+{
+    "CarBehavior": {
+        "checkpoints": [
+            {
+                "steps": 100009,
+                "file_path": "results\\RUN_3\\CarBehavior\\CarBehavior-100009.onnx",
+                "reward": -0.09245714172720909,
+                "creation_time": 1618502675.0810905
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 100009,
+            "file_path": "results\\RUN_3\\CarBehavior.onnx",
+            "reward": -0.09245714172720909,
+            "creation_time": 1618502675.0810905
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.26.0.dev0",
+        "torch_version": "1.8.1+cu111"
+    }
+}
